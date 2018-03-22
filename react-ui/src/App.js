@@ -239,7 +239,7 @@ class Intro extends Component {
         <Grid>
           <Row>
             <Col xs={12} sm={12} md={8} lg={8}>
-              <h1 class="intro-title">Capital One Webapp <br />Challenge</h1><br />
+              <h1 class="intro-title">Capital One <br />Challenge</h1><br />
               <p class="intro-name">Harshil Shah</p><br />
             </Col>
             <Col xs={12} sm={12} md={4} lg={4}>
