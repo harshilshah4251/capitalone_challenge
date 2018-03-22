@@ -3,13 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "chart.js": "^2.7.2",
+    "react-chartjs-2": "^2.7.0",
     "google-map-react": "^0.34.0",
     "jquery": "^3.3.1",
     "react-bootstrap": "^0.32.1",
     "react-fullpage": "^0.1.18",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.14",
+    "flexbox-react": "^4.4.0",
+    "geolib": "^2.0.24",
+    "react-charts-plus": "^0.4.5",
+    "react-google-maps": "^9.4.5",
+    "react-flexview": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

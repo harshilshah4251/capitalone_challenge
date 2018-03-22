@@ -1,5 +1,50 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+h1.title{
+  font-size: 50px;
+  font-weight: 300;
+  color: mediumvioletred;
+  text-align: center;
+}
+h1.intro-title{
+  font-size: 125px;
+  font-weight: 400;
+  color: white;
+  text-align: left;
+}
+
+p.intro-name{
+  font-size: 75px;
+  font-weight: 300;
+  color: white;
+}
+
+p.intro-instr{
+  font-size: 50px;
+  font-weight:300;
+  color: white;
+}
+
+p.med_title{
+  font-size: 40px;
+  font-weight: 300;
+  color: orange;
+}
+
+p.med_title_white{
+  font-size: 40px;
+  font-weight: 300;
+  color:white;
+}
+
+p.description{
+  font-size: 30px;
+  font-weight: 300;
+  color: blueviolet;
+}
+td.green_text{
+  color: green;
 }
