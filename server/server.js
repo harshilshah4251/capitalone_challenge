@@ -1,10 +1,7 @@
 require('dotenv').config()
-
 const express = require('express')
 const morgan = require('morgan')
-
 const api = require('./api')
-
 const app = express()
 
 /*
@@ -77,17 +74,20 @@ postgrator.setConfig({
   migrationDirectory: __dirname + '/postgrator',
   driver: 'pg',
   connectionString
+  
 })
 
 postgrator.migrate('max', (err, migrations) => {
   if (err) {
     console.error('Database migration failed!')
+    console.log(connectionString)
     console.error(err)
     process.exit(1)
   }
 
   postgrator.endConnection(() => {
     console.log('Database migrated successfully.')
+    console.log(connectionString)
 
     /*
      * Database has been migrated, all is good to go!
