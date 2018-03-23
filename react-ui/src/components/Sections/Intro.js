@@ -11,7 +11,7 @@ class Intro extends Component {
                         <Row>
                             <Col xs={12} sm={12} md={8} lg={8}>
                                 <h1 class="intro-title">Capital One <br />Webapp Challenge</h1><br />
-                                <p class="intro-name">Harshil Shah :)</p><br />
+                                <p class="intro-name">Harshil Shah</p><br />
                             </Col>
                             <Col xs={12} sm={12} md={4} lg={4}>
                                 <div>
