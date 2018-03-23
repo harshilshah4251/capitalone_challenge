@@ -68,7 +68,7 @@ class Section2 extends Component {
               </Col>
               <Col xs={12} sm={12} md={8} lg={8}>
               <Row>
-                <Barchart bardata={bardata} barlabels={barlabels} label = "Frequency of emergencies" specialBarLabel = "Medical Incident" barColor = "rgba(207, 106, 135,0.7)" hoverColor = "rgba(207, 106, 135,1.0)" specialBarColor = "rgba(231, 127, 103,0.7)" specialHoverColor = "rgba(225, 95, 65,1.0)"/>
+                <Barchart bardata={bardata} barlabels={barlabels} label = "Frequency of emergencies" specialBarLabel = "Medical Incident" barColor = "rgba(207, 106, 135,0.7)" hoverColor = "rgba(207, 106, 135,1.0)" specialBarColor = "rgba(231, 127, 103,0.7)" specialHoverColor = "rgba(225, 95, 65,1.0)" xlabel = "Type of emergency" ylabel = "Frequency of emergency"/>
                 </Row>
                 <Row>
                   <Col md={4} lg = {4}>

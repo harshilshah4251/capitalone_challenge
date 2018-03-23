@@ -26,7 +26,7 @@ class Section4 extends Component {
               <div  style ={{paddingTop : 100}}>
                 <p class="description">The heatmap on the left shows frequency of emergencies in San Francisco with <span style = {{color : "red"}}>red</span> being the area having most frequent emergencies.</p><br />
 
-                <small style = {{color: "red"}}><em>Note: If the heatmap layer does not show up, try refreshing the page couple of times.</em></small>
+                <p style = {{color: "red"}}><em>Note: If the heatmap layer does not show up, try refreshing the page couple of times.</em></p>
               </div>
             </Col>
           </Row>

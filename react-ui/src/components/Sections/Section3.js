@@ -17,7 +17,7 @@ class Section3 extends Component {
           <Section verticalAlign="false" color="#FFFFFF">
         
           <Grid>
-          <h1 class="title" style ={{color :"rgba(84, 109, 229,1.0)", padding : 50}}>When your life is in danger!!</h1>
+          <h1 class="title" style ={{color :"rgba(84, 109, 229,1.0)", padding : 50}}>Life threatening emergencies and ALS units</h1>
             <Row>
               <Col xs={12} sm={12} md={8} lg={8}>
                 <Doughnutchart doughnutdata={doughnutdata} doughnutlabels={doughnutlabels} />
