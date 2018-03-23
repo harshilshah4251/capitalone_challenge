@@ -1,13 +1,7 @@
 import React, {Component} from 'react';
 import {Doughnut} from 'react-chartjs-2';
 
-
-
-
 class Doughnutchart extends Component {
-
-
-
     render() {
         const data = {
             labels: this.props.doughnutlabels,
@@ -25,8 +19,6 @@ class Doughnutchart extends Component {
             
 
         };
-        
-        
         return (
             <div align = "center">
                 <Doughnut data={data} options={{

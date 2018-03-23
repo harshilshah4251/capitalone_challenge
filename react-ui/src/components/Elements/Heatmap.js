@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import GoogleMapReact from 'google-map-react';
 
 function createMapOptions(maps) {
+
+    //map control functions
     return {
       zoomControlOptions: {
         position: maps.ControlPosition.RIGHT_CENTER,
@@ -15,7 +17,7 @@ function createMapOptions(maps) {
       mapTypeControl: true
     };
   }
-class Cityheatmap extends Component {
+class Heatmap extends Component {
     render() {
         return (
             <div style={{height: '500px', width: '600px'}}>
@@ -61,4 +63,4 @@ class Cityheatmap extends Component {
 }
 
 
-export default Cityheatmap;
+export default Heatmap;
